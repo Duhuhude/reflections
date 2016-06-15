@@ -1,0 +1,56 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+	We knew for a fact that the old file worked, but the new one didn't. The 
+	only reason is that something changed between the two files. Viewing the 
+	diff helped filter out the lines with no differences, so we could quickly 
+	see the problem lines.
+
+How could having easy access to the entire history of a file make you a more 
+efficient programmer in the long term?
+
+	It allows me to make small changes to test things without having to worry 
+	about remembering all the changes. This can also help identify parts of 
+	the code that do nothing and can be removed. Also, comparing my working 
+	code with my non-working code can help me understand why and how things 
+	do or don't work, and I can learn better from my mistakes.
+
+What do you think are the pros and cons of manually choosing when to create a 
+commit, like you do in Git, vs having versions automatically saved, like 
+Google Docs does?
+
+	Pros:
+		- The user can choose the commits to reflect the progress made
+		- You don't have unnecessary save points
+		- Your save points aren't arbitrary
+
+	Cons:
+		- You can forget to commit for a long time
+		- You can commit at inconsistent intervals
+
+Why do you think some version control systems, like Git, allow saving multiple 
+files in one commit, while others, like Google Docs, treat each file 
+separately?
+
+	The nature of the content. In Google Docs, most files are very likely to 
+	be independent from each other, whereas in Git, files are very likely to 
+	be related in some way.
+
+How can you use the commands git log and git diff to view the history of files?
+
+	I can see a short description of all the previous changes with git log, 
+	along with the date and time of the change, and I can see what was 
+	actually changed in that commit using git diff.
+
+How might using version control make you more confident to make changes that 
+could break something?
+
+	I know that I can always revert to a previous version of the code that 
+	worked, and find the differences. It's kind of like creating forks in a 
+	road, and being able to go back to any fork at anytime if something goes 
+	south. However, this depends on making commits at reasonable/meaningful
+	intervals.
+
+Now that you have your workspace set up, what do you want to try using git for?
+
+	I want to use it for any substantial project I may have in the future.
+

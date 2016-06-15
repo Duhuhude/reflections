@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	When you initialize a repository, Git begins tracking the history of that 
+	directory. You need to do it in order to use all the functionalities of Git.
