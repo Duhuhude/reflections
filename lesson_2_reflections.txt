@@ -2,3 +2,10 @@ What happens when you initialize a repository? Why do you need to do it?
 
 	When you initialize a repository, Git begins tracking the history of that 
 	directory. You need to do it in order to use all the functionalities of Git.
+
+How is the staging area different from the working directory and the 
+repository? What value do you think it offers?
+
+	It would make sense that you can't (or shouldn't) make changes to a 
+	file in the staging area, but I seem to be doing that right now... 
+
