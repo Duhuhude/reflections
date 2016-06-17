@@ -9,3 +9,41 @@ repository? What value do you think it offers?
 	It would make sense that you can't (or shouldn't) make changes to a 
 	file in the staging area, but I seem to be doing that right now... 
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+	After having made one or more logical changes, you can add the changes to 
+	the staging area, and use git diff --staged to make sure that only one 
+	logical change will be committed at a time.
+
+What are some situations when branches would be helpful in keeping your 
+history organized? How would branches help?
+
+	Creating new branches can be useful when implementing new features. They 
+	can then be merged to the master branch when they are completed. Also, it 
+	allows for multiple areas of the code to be worked on simultaneously, 
+	without having to be careful not to damage earlier code.
+
+How do the diagrams help you visualize the branch structure?
+
+	The diagrams are particularly helpful in visualizing the relationships 
+	between the different branches. This can be helpful to see where changes 
+	can be made without damaging the rest of the project.
+
+What is the result of merging two branches together? Why do we represent it in 
+the diagram the way we do?
+
+	Merging two branches creates a new branch from which the two previous ones 
+	are still accessible, hence the diagram.
+
+What are the pros and cons of Git's autmatic merging vs. always doing merges 
+manually?
+
+	Pros:
+		- When a lot of changes have been made, automatic merging helps save 
+		a lot of time
+		- Both branches should have been checked for discrepencies beforehand, 
+		so automatic merging should not be too much of a prolem
+
+	Cons:
+		- Git will only inform of discrepencies in the case where there is an 
+		error, so unwanted changes that went unnoticed will slip by.
