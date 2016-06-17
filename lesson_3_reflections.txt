@@ -1,1 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?
 
+  If I can't trust my computer to not crash, it makes sense to keep the files remote. Also, if I am not on my own computer.
