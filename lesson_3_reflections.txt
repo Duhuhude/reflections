@@ -31,3 +31,8 @@ and what would be harder?
 	into account the changes made by others, but merging would be very 
 	difficult because everyone would have very different files.
 
+When would you want to make changes in a separate branch rather than directly 
+in master? What benefits does each approach have?
+
+	We have covered this before.
+
