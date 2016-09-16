@@ -14,4 +14,12 @@ use one intead of another?
 	A fork is a copy on Github of someone else's repository that you can work 
 	on without changing theirs. It can be pushed to / pulled from. A clone is 
 	a copy on a local machine, and a branch is a clone within the repository 
-	itself. 
+	itself.
+
+What is the benefit of having a copy of the last known state of the remote 
+stored locally?
+
+	Like Sarah said, if you're not going to have internet for a while but 
+	still need to work, you want the latest version of stuff to do meaningful 
+	work.
+
