@@ -23,3 +23,11 @@ stored locally?
 	still need to work, you want the latest version of stuff to do meaningful 
 	work.
 
+How would you collaborate without using Git or GitHub? What would be easier, 
+and what would be harder?
+
+	I would send files back and forth communicating every change that has been 
+	made. It would be easier to make changes, because I wouldn't have to take 
+	into account the changes made by others, but merging would be very 
+	difficult because everyone would have very different files.
+
